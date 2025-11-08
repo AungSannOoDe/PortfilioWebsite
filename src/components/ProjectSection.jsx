@@ -40,6 +40,7 @@ const ProjectSection = () => {
     dark:before:bg-gray-900
     before:bg-white before:-translate-y-10 before:top-0
   "
+  id='project'
 >
   <div className="max-w-7xl mx-auto px-5">
     {/* Title */}

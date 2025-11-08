@@ -23,9 +23,13 @@ const Navbar = () => {
       {/* Desktop Navigation */}
       <nav className='hidden md:block'>
         <ul className='flex justify-between gap-8 lg:gap-10'>
-          <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'>Home</li>
-          <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'>About</li>
-          <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'>Contact Us</li>
+          <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'> <a href="#home">Home</a> </li>
+          <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'><a href="#about">about</a></li>
+           <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'><a href="#project">project</a></li>
+           <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'><a href="#education">education</a></li>
+           <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'><a href="#skills">Skills</a></li>
+           <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'><a href="#experience">experience</a></li>
+           <li className='hover:text-stone-900 cursor-pointer transition-colors duration-500 transform hover:scale-105'><a href="#contact">contact</a></li>
         </ul>
       </nav>
 

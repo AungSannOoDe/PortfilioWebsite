@@ -3,7 +3,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-  <section className="flex flex-col-reverse md:flex-row items-center justify-between max-w-7xl mx-auto mt-10 px-6 md:px-10">
+  <section  id='home' className="flex flex-col-reverse md:flex-row items-center justify-between max-w-7xl mx-auto mt-10 px-6 md:px-10">
     {/* Left Side — Text Content */}
     <div className="md:w-1/2 text-center md:text-left">
       <h1 className="text-3xl md:text-5xl font-bold text-gray-900 dark:text-white">

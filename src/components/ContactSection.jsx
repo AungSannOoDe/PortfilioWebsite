@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactSection = () => {
   return (
-<section className="max-w-7xl mx-auto mt-10 px-6 text-center mb-3">
+<section className="max-w-7xl mx-auto mt-10 px-6 text-center mb-3" id='contact'>
   {/* Header */}
   <div className="relative mb-6">
     <h1 className="text-4xl md:text-5xl font-bold">Contact Me</h1>

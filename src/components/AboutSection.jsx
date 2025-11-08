@@ -43,7 +43,7 @@ const AboutSection = () => {
   }, [selectedSkill]);
 
   return (
-    <section className="mt-10 dark:bg-gray-900 dark:text-gray-100">
+    <section className="mt-10 dark:bg-gray-900 dark:text-gray-100" id="about">
       <h1 className="text-5xl text-center font-bold">My Skills</h1>
 
       {/* Skill Grid */}
